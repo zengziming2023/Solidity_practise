@@ -1,0 +1,103 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "msg",
+						"type": "string"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint128",
+						"name": "",
+						"type": "uint128"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "CustomType.Weight",
+						"name": "w1",
+						"type": "uint128"
+					},
+					{
+						"internalType": "CustomType.Weight",
+						"name": "w2",
+						"type": "uint128"
+					}
+				],
+				"name": "addWeight",
+				"outputs": [
+					{
+						"internalType": "CustomType.Weight",
+						"name": "",
+						"type": "uint128"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testCustomType",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/CustomType.sol": "CustomType"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/CustomType.sol": {
+			"keccak256": "0xf889b929c3cac84b4dd5fd2e98899aae203b89f0777ed4e4602ea40efbe63524",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c768fa05c54a21aa1496a778f3ff26cf23f66113c34e1fb8569e3ffa7a9946ec",
+				"dweb:/ipfs/QmYghJ5KJhiQ8jq4bdpySxgKuZg2XQTnfjZpUYuMQATR6r"
+			]
+		}
+	},
+	"version": 1
+}

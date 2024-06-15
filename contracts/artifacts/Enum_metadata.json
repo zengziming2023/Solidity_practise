@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getActionChoose",
+				"outputs": [
+					{
+						"internalType": "enum Enum.ActionChoose",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Enum.sol": "Enum"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Enum.sol": {
+			"keccak256": "0xa3b6fed48230c823277af75ca3b8cfd9cecce9f2ee2a273a467d2bd6115066f1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://78d87279b839c3565a6750ce29aaa96510d51978601af07e6d549d22f1af4b62",
+				"dweb:/ipfs/QmVCtmTYYC5h7qvGoTs12bNr5tdYnMb8owK5LdTpPh9cjb"
+			]
+		}
+	},
+	"version": 1
+}
