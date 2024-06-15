@@ -1,0 +1,91 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "msg",
+						"type": "string"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "payload",
+						"type": "string"
+					}
+				],
+				"name": "extracFourBytes",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "intArr",
+						"type": "uint256[]"
+					}
+				],
+				"name": "foo",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ArraySlice.sol": "ArraySlice"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ArraySlice.sol": {
+			"keccak256": "0x13087e11e58ed932da2fdd50037f47245eaffa18853d5ccee6c58d24e134eb2a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://dcba61d7ee6e8c1becca45d146bf1d8bef812120f8c320480a5aa4155e06e481",
+				"dweb:/ipfs/QmVLWWsnqVptQSUvynV65VUJueqeBpGXSf7K8Bdb93N6Di"
+			]
+		}
+	},
+	"version": 1
+}
