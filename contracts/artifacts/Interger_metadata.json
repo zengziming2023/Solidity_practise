@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "overFlow",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Integer.sol": "Interger"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Integer.sol": {
+			"keccak256": "0xa60fdcb9ff004fa7c690d7e16c99e2660861d1feb76b983bad997d168613ded7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2a9950b4a74e732b1d18e2c69ab899f5bc2f09af0e862919797a0749652be2c1",
+				"dweb:/ipfs/QmbCpRvarTntFQs9XVhDaBwYtdVSAuLV6jkuWwEyE6taFY"
+			]
+		}
+	},
+	"version": 1
+}
