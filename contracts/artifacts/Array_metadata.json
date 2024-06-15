@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "testArray",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Array.sol": "Array"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Array.sol": {
+			"keccak256": "0xed1d8facfd3188de1909366449bc29b2e9ef8e57feb5561c1800352b84fcb49c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4373cce4a82a540d2c46147dad139304852d3d75c0f76a2cc7e045fa42b76599",
+				"dweb:/ipfs/QmXK6srpWd9L6hEQNDiPKbD5sJYZGEJgsfphVdeWTno3Nc"
+			]
+		}
+	},
+	"version": 1
+}
