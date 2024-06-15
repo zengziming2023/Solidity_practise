@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "isZero",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "zeroCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/BoolShortCircuit.sol": "BoolShortCircuit"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/BoolShortCircuit.sol": {
+			"keccak256": "0x5c037868ca442e53366d0e8201358f86cfbe9d13365554eef02935762813c522",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8784969a40a6663fe4a56ef82a918e236dc7d3d4536f23efa9deb49fcda441da",
+				"dweb:/ipfs/QmcxTqMnAkJzYPAwask35JvdHChERg8a7WvbLHE1LAEDSe"
+			]
+		}
+	},
+	"version": 1
+}
