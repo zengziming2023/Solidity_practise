@@ -2,6 +2,9 @@
 pragma solidity >=0.6.12 <0.9.0;
 
 contract Array {
+         // 只有storage array 有成员函数 -- push and pop
+        uint[] staticArray1; 
+
     function testArray() public {
         uint[3] memory nftMem;
         uint[3] memory nftMem1 = [uint(100), 2, 3];
@@ -32,5 +35,18 @@ contract Array {
 
         staticArray[0] = 3;
         staticArray[1] = 4;
+
+        uint size1 = nftMem1.length;
+        uint size2 = nft7.length;
+
+        staticArray1.push();    // push 0
+        staticArray1.push(1);
+        staticArray1.pop();
+
+        // uint[] memory dynicArray1; // = new uint[]{3};  // 编译错误 
+        // dynicArray1.push();
+
+
+
     }
 }
