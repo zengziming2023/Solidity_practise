@@ -1,0 +1,60 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "funExternal",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "funPublic",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MainContract.sol": "MainContrace"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MainContract.sol": {
+			"keccak256": "0x0c6abb4b7b98beb758026281b03625a795a5b5303863ce4496fbfd9bce5dea12",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b8727ec2d01f5ff1c9b69b18157cd7d8151e20ecd1c4e8c709cae9482a443820",
+				"dweb:/ipfs/QmW79VitNpVBM7Q6LrMbSda5BWHKqAKzz4TiLdiZozd8mA"
+			]
+		}
+	},
+	"version": 1
+}

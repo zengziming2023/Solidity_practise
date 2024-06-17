@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "funExternal",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "funPublic",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ChildContract.sol": "ChildContrace"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ChildContract.sol": {
+			"keccak256": "0x7739edc584bb6fee1ef7d833256931307ccc80cabf2602fa5a70e9fe2510b020",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3c1ba154ba73822fe3eecc693699c112d16e4e332f2bbc9c27874faca5f67136",
+				"dweb:/ipfs/Qmb3Rxu3pp7vNCLJTHwbdnoT3Hdm2ogVRVBZhVCBmNN5Wm"
+			]
+		},
+		"contracts/MainContract.sol": {
+			"keccak256": "0x76635b4f8f418c0b568d1608797cf71679719f895f3ff6a1fbe45fda3ece07e5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a20f5ffc0b3a7b0b372e6e4c9dc0ac14df58c241408b2f88ff8990c2d2f51d10",
+				"dweb:/ipfs/QmQj4P7KRqgcPZeW9XRhmjHsxA8AQrSFLQUzCSyH7U8gX5"
+			]
+		}
+	},
+	"version": 1
+}

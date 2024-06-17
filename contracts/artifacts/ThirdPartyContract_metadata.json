@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ThirdPartyContract.sol": "ThirdPartyContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MainContract.sol": {
+			"keccak256": "0x76635b4f8f418c0b568d1608797cf71679719f895f3ff6a1fbe45fda3ece07e5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a20f5ffc0b3a7b0b372e6e4c9dc0ac14df58c241408b2f88ff8990c2d2f51d10",
+				"dweb:/ipfs/QmQj4P7KRqgcPZeW9XRhmjHsxA8AQrSFLQUzCSyH7U8gX5"
+			]
+		},
+		"contracts/ThirdPartyContract.sol": {
+			"keccak256": "0x4d72b44c00c268e59f993d52a11fd58d0cee4a0766ecb9a6ed7442c228cda19d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e91c4870863b5795ae1ccab3b3f1c71e5e8614469b8339a9eb6d48f405df7782",
+				"dweb:/ipfs/QmWvqSCR5vcr7zZuYqXYmgju45rSuAAxdpQGYkq7qFs26V"
+			]
+		}
+	},
+	"version": 1
+}
