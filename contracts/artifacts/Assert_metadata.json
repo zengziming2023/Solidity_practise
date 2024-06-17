@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "addr1",
+						"type": "address"
+					},
+					{
+						"internalType": "address payable",
+						"name": "addr2",
+						"type": "address"
+					}
+				],
+				"name": "splitBalance",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testAssert",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Assert.sol": "Assert"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Assert.sol": {
+			"keccak256": "0xc91e092e28d30ff08b42dc8d2ba60d4913ad57e6f18a2cace1c982abd88d005d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ba8441310e439ae226469bcf6f37e08dabec73cea24cad056cc4d4778695c9d6",
+				"dweb:/ipfs/QmdhbW1t8CpopuMvPRewmZ985u5jJjtnNmWBpTiE9Cax8q"
+			]
+		}
+	},
+	"version": 1
+}
