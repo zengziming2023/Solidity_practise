@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "testForWhile",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/FowWhile.sol": "ForWhile"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/FowWhile.sol": {
+			"keccak256": "0xf1bd52be2eddc2c8e65edcffdf4cc549fbbd9af3d71e7bd8953f665f2454868c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://312d0da91fcee9e6118398bffe5f7bc707056e9ed16967c4d06fdc56737eed06",
+				"dweb:/ipfs/QmajdVvhBQoyV7uWCtNRQTFcqoqWaq4g5MsWg9sH2m43XV"
+			]
+		}
+	},
+	"version": 1
+}
