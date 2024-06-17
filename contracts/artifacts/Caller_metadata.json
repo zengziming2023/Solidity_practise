@@ -6,25 +6,41 @@
 	"output": {
 		"abi": [
 			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": false,
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"name": "FunctionCalled",
-				"type": "event"
-			},
-			{
-				"stateMutability": "payable",
-				"type": "fallback"
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
 			},
 			{
 				"inputs": [],
-				"name": "foo",
+				"name": "callFallback",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "callFoo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "callReceive",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sendReceive",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "transferReceive",
 				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
@@ -43,7 +59,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Fallback.sol": "Callee"
+			"contracts/Fallback.sol": "Caller"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
