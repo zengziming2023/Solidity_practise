@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "testConstant",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Constant.sol": "Constant"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Constant.sol": {
+			"keccak256": "0x23ffa10e68aac408e1dbf09c34eea1730756d850adee1f4d352b1cb12d601df2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://40e358fd8d9f542ab950985d4437a2669f0e60524fdad0e235d08a82f7335b5a",
+				"dweb:/ipfs/QmPFHkTskLCH2qWGFb8hFkF6wzzZo6K99JaP4fYg3fbhSr"
+			]
+		}
+	},
+	"version": 1
+}
