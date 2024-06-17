@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "f",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/artifacts/Immutable.sol": "Immutable"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/artifacts/Immutable.sol": {
+			"keccak256": "0xd5c1c7e2cfdd7df5ef568e91516b2d2bceb70535e9003858b05e1cb1a104db4c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e65de9b6d6fccc83d145a98a53bc2b56ac38e84d24992a0b370675abdd03e4c0",
+				"dweb:/ipfs/QmZH2odmuXQ5q3sPWpH9HQw4fqSuzq3XMc5TZBLVCcN1H6"
+			]
+		}
+	},
+	"version": 1
+}
